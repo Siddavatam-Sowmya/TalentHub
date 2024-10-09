@@ -1,0 +1,36 @@
+/* src/About.css */
+.about {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/16/09/57/watercolor-5049980_960_720.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.about h1 {
+    font-size: 3em;
+    color: #9e3b3b;
+    font-style: bold;
+}
+
+/* New container for the paragraph content */
+.about-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better contrast */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block; /* Keep the content at its natural width */
+    max-width: 600px; /* Limit the width for better readability */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Align text to the left for the paragraphs */
+}
+
+.about-content p {
+    font-size: 1.2em;
+    color: #d8e828ee;
+    margin-bottom: 10px;
+}

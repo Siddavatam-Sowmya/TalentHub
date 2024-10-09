@@ -1,0 +1,45 @@
+/* src/Services.css */
+.services {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://lakshyaschool.in/wp-content/uploads/2020/04/school-sports.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: rgb(243, 8, 8);
+}
+
+.services h1 {
+    font-size: 3em;
+    color: #120303;
+}
+
+.services p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* Container that holds the entire list */
+.services-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Ensures it doesn't take the full width of the page */
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 1.2em;
+    color: #ee4304;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adds background to each item for separation */
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,46 @@
+/* src/Contact.css */
+.contact {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2019/02/13/09/59/contact-3994013_1280.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+}
+
+.contact h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Container for contact information */
+.contact-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block; /* Keeps the container to just the content size */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for a container effect */
+}
+
+.contact-container ul {
+    list-style-type: none;
+    padding: 0;
+    color: #000; /* Black color for better readability inside the container */
+}
+
+.contact-container li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Background for individual items */
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

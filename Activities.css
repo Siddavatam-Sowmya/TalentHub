@@ -1,0 +1,68 @@
+/* src/Activities.css */
+.activities {
+  padding: 20px;
+  text-align: center;
+  background-image: url('https://cdn.pixabay.com/photo/2015/05/31/13/45/working-791849_960_720.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  color: rgb(131, 26, 26);
+}
+
+.activities h1 {
+  font-size: 3em;
+  color: #b12020;
+}
+
+/* New container for the paragraphs */
+.activities-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto 20px; /* Centering and space below */
+  text-align: left; /* Align text to the left */
+}
+
+.activities-content p {
+  font-size: 1.2em;
+  color: #333; /* Darker color for text */
+  margin-bottom: 10px;
+}
+
+/* Dropdown styles */
+.dropdown {
+  margin-top: 20px;
+}
+
+.dropdown-toggle {
+  background-color: #29a42e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+  background-color: #6b839c;
+}
+
+.dropdown-menu {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 5px 0;
+}

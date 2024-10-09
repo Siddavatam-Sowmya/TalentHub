@@ -1,0 +1,25 @@
+/* src/UpcomingEvents.css */
+.upcoming-events-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .events-table {
+    width: 80%; /* Set the width of the table */
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some spacing above the table */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  

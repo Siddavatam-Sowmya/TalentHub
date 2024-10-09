@@ -1,0 +1,92 @@
+/* login.css */
+
+/* Background image */
+body {
+    background-image: url('https://i.pinimg.com/736x/41/2b/27/412b278be487caf1879af48a359cadf1.jpg'); /* Use your background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background-color: #d5929dcc; /* Pinkish color with transparency */
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  .logo {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #0a0909;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forgot-password {
+    color: red;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-btn:hover {
+    background-color: #218838;
+  }
+  
+  .signup-text {
+    margin-top: 20px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .signup-link:hover {
+    text-decoration: none;
+  }
+  
